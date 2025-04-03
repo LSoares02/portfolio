@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.df056094.css",
+    "main.js": "/portfolio/static/js/main.92dcd662.js",
+    "static/js/597.bb1e5e30.chunk.js": "/portfolio/static/js/597.bb1e5e30.chunk.js",
+    "static/js/934.c55f608e.chunk.js": "/portfolio/static/js/934.c55f608e.chunk.js",
+    "static/js/306.4d7a6b2e.chunk.js": "/portfolio/static/js/306.4d7a6b2e.chunk.js",
+    "static/js/453.8ab44547.chunk.js": "/portfolio/static/js/453.8ab44547.chunk.js",
+    "static/media/speechAnalytics.png": "/portfolio/static/media/speechAnalytics.b98376b8a511a86ad385.png",
+    "static/media/videoImpact.png": "/portfolio/static/media/videoImpact.1f96d0eb2bb87be92ef9.png",
+    "static/media/curator.png": "/portfolio/static/media/curator.5c7e2b21f746eef7be5e.png",
+    "static/media/bear.jpg": "/portfolio/static/media/bear.b2d1b1705f7a19e335c1.jpg",
+    "static/media/background.png": "/portfolio/static/media/background.9355da3ff3d5ba9b1cf1.png",
+    "static/media/commissioning.png": "/portfolio/static/media/commissioning.ed67c4212742f10a4ce6.png",
+    "static/media/presenting.jpg": "/portfolio/static/media/presenting.c7aaf72d4c3b2c3febc8.jpg",
+    "static/media/poc.jpg": "/portfolio/static/media/poc.579dd3048797439f596d.jpg",
+    "static/media/dt.jpg": "/portfolio/static/media/dt.8e602bd09e4c6d61c730.jpg",
+    "static/media/lucas.png": "/portfolio/static/media/lucas.ad1d145b2e0bfc853e25.png",
+    "static/media/gitDark.png": "/portfolio/static/media/gitDark.583eba326d6a8602496f.png",
+    "static/media/gitLight.png": "/portfolio/static/media/gitLight.92283ae5019e634cd208.png",
+    "static/media/default.jpg": "/portfolio/static/media/default.3fa2917345da20d3d09a.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.df056094.css.map": "/portfolio/static/css/main.df056094.css.map",
+    "main.92dcd662.js.map": "/portfolio/static/js/main.92dcd662.js.map",
+    "453.8ab44547.chunk.js.map": "/portfolio/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df056094.css",
+    "static/js/main.92dcd662.js"
+  ]
+}
