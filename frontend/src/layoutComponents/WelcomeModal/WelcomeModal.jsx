@@ -71,7 +71,7 @@ const WelcomeModal = ({ open, setOpen }) => {
           <Button
             variant="contained"
             onClick={() => {
-              navigate("/contact");
+              navigate("/portfolio/contact");
               setOpen(false);
             }}
             sx={{ mt: 2 }}

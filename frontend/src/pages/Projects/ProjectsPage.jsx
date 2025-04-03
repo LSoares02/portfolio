@@ -51,12 +51,13 @@ const ProjectsPage = () => {
             {translations?.projects}
           </h1>
           <p>{translations?.projectsPageIntro}</p>
-
           <div className="projects-list">
             {projects.map((project, index) => (
               <div
                 key={index}
-                className="project-item"
+                className={`project-item ${
+                  index === selectedProject ? "selected" : ""
+                }`}
                 onClick={() => handleProjectClick(index)}
               >
                 <h2 className="project-title">{project.title}</h2>

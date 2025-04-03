@@ -59,14 +59,14 @@ const AboutPage = () => {
       <div className="about-buttons">
         <Button
           variant="contained"
-          onClick={() => navigate("/projects")}
+          onClick={() => navigate("/portfolio/projects")}
           style={{ flexGrow: 1 }}
         >
           {translations?.projects}
         </Button>
         <Button
           variant="outlined"
-          onClick={() => navigate("/contact")}
+          onClick={() => navigate("/portfolio/contact")}
           style={{ flexGrow: 1 }}
         >
           {translations?.contactButton}

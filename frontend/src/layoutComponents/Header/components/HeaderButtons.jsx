@@ -80,13 +80,13 @@ const HeaderButtons = () => {
             horizontal: "left",
           }}
         >
-          <MenuItem onClick={() => handleNavigation("/about")}>
+          <MenuItem onClick={() => handleNavigation("/portfolio/about")}>
             <Button sx={buttonStyle}>{translations.about}</Button>
           </MenuItem>
-          <MenuItem onClick={() => handleNavigation("/projects")}>
+          <MenuItem onClick={() => handleNavigation("/portfolio/projects")}>
             <Button sx={buttonStyle}>{translations.projects}</Button>
           </MenuItem>
-          <MenuItem onClick={() => handleNavigation("/contact")}>
+          <MenuItem onClick={() => handleNavigation("/portfolio/contact")}>
             <Button sx={buttonStyle}>{translations.contactButton}</Button>
           </MenuItem>
         </StyledMenu>
@@ -96,13 +96,13 @@ const HeaderButtons = () => {
 
   return (
     <>
-      <Button onClick={() => navigate("/about")} sx={buttonStyle}>
+      <Button onClick={() => navigate("/portfolio/about")} sx={buttonStyle}>
         {translations.about}
       </Button>
-      <Button onClick={() => navigate("/projects")} sx={buttonStyle}>
+      <Button onClick={() => navigate("/portfolio/projects")} sx={buttonStyle}>
         {translations.projects}
       </Button>
-      <Button onClick={() => navigate("/contact")} sx={buttonStyle}>
+      <Button onClick={() => navigate("/portfolio/contact")} sx={buttonStyle}>
         {translations.contactButton}
       </Button>
     </>
