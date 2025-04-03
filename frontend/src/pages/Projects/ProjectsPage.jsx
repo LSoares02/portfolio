@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useLanguage } from "../../translate/LanguageProvider";
 import TextImage from "../../layoutComponents/TextImage/TextImage";
 
@@ -17,6 +17,40 @@ const ProjectsPage = () => {
   const { translations } = useLanguage();
   const { theme } = useTheme();
   const [selectedProject, setSelectedProject] = useState(0);
+  const projectsContainerRef = useRef(null);
+  const projectRefs = useRef([]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const containerRect =
+        projectsContainerRef.current.getBoundingClientRect();
+      const containerCenter = containerRect.top + containerRect.height / 2;
+
+      let closestIndex = 0;
+      let minDistance = Infinity;
+
+      projectRefs.current.forEach((ref, index) => {
+        if (ref) {
+          const itemRect = ref.getBoundingClientRect();
+          const distance = Math.abs(
+            itemRect.top + itemRect.height / 2 - containerCenter
+          );
+
+          if (distance < minDistance) {
+            minDistance = distance;
+            closestIndex = index;
+          }
+        }
+      });
+
+      setSelectedProject(closestIndex);
+    };
+
+    projectsContainerRef.current?.addEventListener("scroll", handleScroll);
+    return () => {
+      projectsContainerRef.current?.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const projects = translations?.projectsExamples || [];
 
@@ -42,6 +76,7 @@ const ProjectsPage = () => {
       <div className="projects-grid">
         <div
           className="projects-list-container fadeIn"
+          ref={projectsContainerRef}
           style={{
             backgroundColor: theme === "light" ? "white" : "black",
             color: theme === "light" ? "#333" : "#f5f5f5",
@@ -55,6 +90,7 @@ const ProjectsPage = () => {
             {projects.map((project, index) => (
               <div
                 key={index}
+                ref={(el) => (projectRefs.current[index] = el)}
                 className={`project-item ${
                   index === selectedProject ? "selected" : ""
                 }`}
