@@ -1,0 +1,53 @@
+{
+  "title": "Portafolio",
+  "about": "Sobre",
+  "projects": "Proyectos",
+  "contactButton": "Contáctame",
+  "contact": {
+    "title": "Contáctame",
+    "description": "Si quieres discutir sobre tecnología, proyectos u oportunidades, ¡no dudes en contactarme a través de los canales a continuación!"
+  },
+  "welcome": "¡Bienvenido!",
+  "welcomeText": [
+    "Este sitio fue desarrollado en pocas horas usando la <a href='https://codeium.com/windsurf' target='_blank'>IDE Windsurf</a>, combinando lo mejor de la IA Generativa y la creatividad.",
+    "Consulta el código fuente en <a href='https://github.com/LSoares02/portfolio' target='_blank'>GitHub</a>."
+  ],
+  "close": "Cerrar",
+  "language": "Idioma",
+  "aboutParagraphs": [
+    "Con más de 4 años de experiencia en tecnología, Lucas trabaja como <strong>desarrollador web fullstack</strong>, centrándose en la creación de soluciones innovadoras, escalables y replicables.",
+    "Especialista en <strong>NodeJS y React</strong>, también tiene experiencia con <strong>Python, Flutter y Kotlin</strong>, además de un sólido conocimiento en bases de datos relacionales, no relacionales y en memoria.",
+    "Su experiencia va más allá del desarrollo, abarcando <strong>arquitectura de microservicios, computación en la nube y DevOps</strong>. Con un gran dominio en <strong>IA generativa</strong> e ingeniería de prompts, busca hacer que la tecnología sea accesible y aplicable a las necesidades de los usuarios, transformando desafíos de negocio en soluciones funcionales y bien estructuradas.",
+    "A lo largo de su carrera, ha participado en proyectos de gran impacto, como el <strong>desarrollo de un sistema completo para la gestión y comisionamiento de activos</strong>, desde el modelado de datos hasta la interfaz final en React. También se desempeñó como líder de engagement en IBM Brasil, dirigiendo POCs y demostraciones para clientes estratégicos, incluida la creación de un sistema para la evaluación de agentes virtuales basado en métricas conversacionales y machine learning.",
+    "Además, facilitó <strong>sesiones de Design Thinking y procesos de co-creación</strong>, ayudando a equipos a transformar ideas en soluciones concretas con impacto real. Motivado por el potencial transformador de la tecnología, cree que los procesos pueden mejorarse y la vida de las personas puede beneficiarse con la innovación.",
+    "Su trabajo se rige por tres principios fundamentales: <strong>compromiso, curiosidad y tangibilidad</strong>, garantizando que cada solución desarrollada sea funcional, efectiva y aporte valor de manera concreta."
+  ],
+  "projectsPageIntro": "A lo largo de su trayectoria profesional, Lucas ha estado involucrado en el desarrollo de diversas soluciones innovadoras, que van desde sistemas inteligentes para automatización hasta metodologías enfocadas en el análisis de desempeño y la experiencia del usuario.",
+  "projectsExamples": [
+    {
+      "title": "Sistema de Gestión y Comisionamiento de Activos",
+      "description": "Desarrollo de un sistema robusto para la gestión y mantenimiento de equipos industriales, con inteligencia artificial integrada para automatizar pruebas y asistir en los procesos de mantenimiento. La solución optimizó el monitoreo y la operación de los activos, reduciendo fallas y mejorando la eficiencia operativa."
+    },
+    {
+      "title": "Evaluación de la Calidad de Asistentes Virtuales",
+      "description": "Creación de un sistema y una metodología para medir la calidad conversacional y la solidez del entrenamiento de Asistentes Virtuales. La solución analizaba interacciones, identificaba puntos de mejora y presentaba visualmente información clave para la optimización continua de los bots, garantizando una mejor experiencia para los usuarios."
+    },
+    {
+      "title": "Monitoreo de Temas en Programas de TV",
+      "description": "Desarrollo de una solución para la extracción de temas discutidos en programas de televisión, evaluando su relevancia e impacto en las redes sociales. El sistema cruzaba esta información con los presentadores e interlocutores involucrados, permitiendo un análisis detallado sobre la influencia y la importancia de los temas abordados."
+    },
+    {
+      "title": "Sistema de Evaluación del Desempeño en Atención Telefónica",
+      "description": "Mantenimiento y mejora de un sistema para el análisis del desempeño de agentes en llamadas telefónicas, extrayendo KPIs clave para medir la eficiencia del servicio y la satisfacción del cliente. Las mejoras implementadas contribuyeron a una mayor precisión en las evaluaciones y a una mejor toma de decisiones para optimizar la experiencia del consumidor."
+    },
+    {
+      "title": "Facilitación de Design Thinking para un Evento Estratégico",
+      "description": "Liderazgo en la facilitación de una sesión de Design Thinking enfocada en la planificación de un evento estratégico de IBM Brasil. El objetivo fue presentar el portafolio de IA y Automatización de la empresa de una manera atractiva, utilizando metodologías de co-creación para estructurar una experiencia impactante y alineada con las necesidades del público objetivo."
+    },
+    {
+      "title": "Inmersión en el uso práctico del sistema de puesta en marcha",
+      "description": "Para garantizar que el sistema de gestión de activos satisfaga las necesidades reales de los profesionales que lo usaron, se hizo un contacto directo con el equipo de campo. Este seguimiento permitió comprender los desafíos que enfrentan en la vida cotidiana y adaptar el código para hacer que la herramienta sea más intuitiva, eficiente y alineada con el flujo de trabajo de los usuarios finales."
+    }
+  ],
+  "clickOnAProject": "Haga clic en un proyecto"
+}

@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  /* CSS HEX */
+  --drab-dark-brown: #33311fff;
+  --field-drab: #6b532aff;
+  --tan: #ccb48dff;
+  --lion: #9f9170ff;
+  --cinnabar: #dc623fff;
+
+  /* CSS HSL */
+  --drab-dark-brown: hsla(54, 24%, 16%, 1);
+  --field-drab: hsla(38, 44%, 29%, 1);
+  --tan: hsla(37, 38%, 68%, 1);
+  --lion: hsla(42, 20%, 53%, 1);
+  --cinnabar: hsla(13, 69%, 55%, 1);
+}
+
+.fadeIn {
+  animation: fadeIn 1.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    /* transform: translateY(20px); */
+  }
+  to {
+    opacity: 1;
+    /* transform: translateY(0); */
+  }
+}
