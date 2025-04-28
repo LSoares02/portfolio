@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b2d744c6.css",
-    "main.js": "/portfolio/static/js/main.a358d621.js",
-    "static/js/597.bb1e5e30.chunk.js": "/portfolio/static/js/597.bb1e5e30.chunk.js",
-    "static/js/934.c55f608e.chunk.js": "/portfolio/static/js/934.c55f608e.chunk.js",
-    "static/js/306.4d7a6b2e.chunk.js": "/portfolio/static/js/306.4d7a6b2e.chunk.js",
+    "main.css": "/portfolio/static/css/main.e8fec1d1.css",
+    "main.js": "/portfolio/static/js/main.70b819aa.js",
+    "static/js/597.dcd38fa8.chunk.js": "/portfolio/static/js/597.dcd38fa8.chunk.js",
+    "static/js/934.3e3c5ab9.chunk.js": "/portfolio/static/js/934.3e3c5ab9.chunk.js",
+    "static/js/306.d8c3da46.chunk.js": "/portfolio/static/js/306.d8c3da46.chunk.js",
     "static/js/453.8ab44547.chunk.js": "/portfolio/static/js/453.8ab44547.chunk.js",
+    "static/media/colorc.png": "/portfolio/static/media/colorc.c1353007d18e5aa98901.png",
     "static/media/speechAnalytics.png": "/portfolio/static/media/speechAnalytics.b98376b8a511a86ad385.png",
     "static/media/videoImpact.png": "/portfolio/static/media/videoImpact.1f96d0eb2bb87be92ef9.png",
     "static/media/curator.png": "/portfolio/static/media/curator.5c7e2b21f746eef7be5e.png",
@@ -20,12 +21,12 @@
     "static/media/gitLight.png": "/portfolio/static/media/gitLight.92283ae5019e634cd208.png",
     "static/media/default.jpg": "/portfolio/static/media/default.3fa2917345da20d3d09a.jpg",
     "index.html": "/portfolio/index.html",
-    "main.b2d744c6.css.map": "/portfolio/static/css/main.b2d744c6.css.map",
-    "main.a358d621.js.map": "/portfolio/static/js/main.a358d621.js.map",
+    "main.e8fec1d1.css.map": "/portfolio/static/css/main.e8fec1d1.css.map",
+    "main.70b819aa.js.map": "/portfolio/static/js/main.70b819aa.js.map",
     "453.8ab44547.chunk.js.map": "/portfolio/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2d744c6.css",
-    "static/js/main.a358d621.js"
+    "static/css/main.e8fec1d1.css",
+    "static/js/main.70b819aa.js"
   ]
 }
