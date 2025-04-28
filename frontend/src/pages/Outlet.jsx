@@ -8,6 +8,8 @@ import WelcomeModal from "../layoutComponents/WelcomeModal/WelcomeModal";
 import HelpIcon from "@mui/icons-material/Help";
 import { Info } from "@mui/icons-material";
 
+const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+
 const StyledBox = styled(Box)(({ theme }) => ({
   minHeight: "100vh",
   display: "flex",
@@ -16,7 +18,6 @@ const StyledBox = styled(Box)(({ theme }) => ({
 }));
 
 const Background = styled(Box)(({ theme }) => ({
-  position: "absolute",
   top: 0,
   left: 0,
   right: 0,
@@ -24,7 +25,8 @@ const Background = styled(Box)(({ theme }) => ({
   backgroundImage: `url(${background})`,
   backgroundSize: "cover",
   backgroundPosition: "center",
-  backgroundAttachment: "fixed",
+  backgroundAttachment: isSafari ? undefined : "fixed",
+  position: isSafari ? "fixed" : "absolute",
   filter: "blur(50px)",
   opacity: 1,
   zIndex: 0,

@@ -23,6 +23,9 @@
   overflow: scroll;
   border-radius: 12px;
 }
+.projects-list-container::-webkit-scrollbar {
+  display: none;
+}
 
 .projects-list {
   display: flex;

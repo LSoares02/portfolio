@@ -29,6 +29,10 @@
       "description": "Desarrollo de un sistema robusto para la gestión y mantenimiento de equipos industriales, con inteligencia artificial integrada para automatizar pruebas y asistir en los procesos de mantenimiento. La solución optimizó el monitoreo y la operación de los activos, reduciendo fallas y mejorando la eficiencia operativa."
     },
     {
+      "title": "Aplicación de identificación de color",
+      "description": "Desarrollo de una aplicación Flutter para iOS y Android inteligente para la identificación y construcción de la paleta de colores. Pensando en primer lugar en usuarios daltónicos, la aplicación ayuda al usuario a describir el color en términos simples como \"es un tono azul oscuro \" o \"parece verde claro\"."
+    },
+    {
       "title": "Evaluación de la Calidad de Asistentes Virtuales",
       "description": "Creación de un sistema y una metodología para medir la calidad conversacional y la solidez del entrenamiento de Asistentes Virtuales. La solución analizaba interacciones, identificaba puntos de mejora y presentaba visualmente información clave para la optimización continua de los bots, garantizando una mejor experiencia para los usuarios."
     },

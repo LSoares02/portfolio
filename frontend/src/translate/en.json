@@ -29,6 +29,10 @@
       "description": "Development of a robust system for managing and maintaining industrial equipment, with embedded artificial intelligence to automate testing and assist in maintenance processes. The solution optimized asset monitoring and operation, reducing failures and improving operational efficiency."
     },
     {
+      "title": "Color identification mobile app",
+      "description": "Development of a Flutter App for iOS and Android for color palette identification and construction. Thinking mainly on colorblind users, the app helps the user describe the color in simple terms like \"is a dark blue tone\" or \"looks like light green\"."
+    },
+    {
       "title": "Virtual Assistant Quality Assessment",
       "description": "Creation of a system and methodology to measure the conversational quality and training robustness of Virtual Assistants. The solution analyzed interactions, identified areas for improvement, and visually presented insights for continuous bot optimization, ensuring a better user experience."
     },

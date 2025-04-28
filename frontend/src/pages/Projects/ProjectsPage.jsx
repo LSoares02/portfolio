@@ -6,6 +6,7 @@ import { useTheme } from "../../theme/ThemeProvider";
 
 import commissioning from "../../images/commissioning.png";
 import curator from "../../images/curator.png";
+import colorc from "../../images/colorc.png";
 import videoImpact from "../../images/videoImpact.png";
 import speechAnalytics from "../../images/speechAnalytics.png";
 import dt from "../../images/dt.jpg";
@@ -56,6 +57,7 @@ const ProjectsPage = () => {
 
   const [projectImages, setProjectImages] = useState([
     commissioning,
+    colorc,
     curator,
     videoImpact,
     speechAnalytics,
